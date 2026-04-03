@@ -1,6 +1,6 @@
 # 🚀 AI Engineering Masterclass (2026 Edition)
 
-Welcome to the definitive **AI Engineering Curriculum** — now expanded to **37+ notebooks** plus 6 deep-theory sub-tracks.
+Welcome to the definitive **AI Engineering Curriculum** — now expanded to **43 notebooks** plus 6 deep-theory sub-tracks.
 
 This repository bridges the chasm between *learning ML concepts on a laptop* and *deploying scalable, cost-efficient AI systems in production*. It transforms junior AI developers into senior AI Architects.
 
@@ -116,7 +116,7 @@ For learners who want to go deeper into the theory behind the tools:
 |-------|:---------:|--------|
 | **Machine Learning** (`ML/`) | 9 | Linear algebra, optimization, trees, kernels, evaluation, system design |
 | **Deep Learning** (`DL/`) | 7 | Backprop, activations, initialization, optimizers, **Transformer architecture** |
-| **Computer Vision** (`CV/`) | 11 | CNNs, detection, segmentation, ViT, diffusion, edge deployment |
+| **Computer Vision** (`CV/`) | 18 | CNNs, detection, segmentation, ViT, 3DGS, Diffusion, OCR, Tracking, **Anomaly Detection** |
 | **NLP** (`NLP/`) | 6 | **[NEW]** Tokenization (BPE), Word2Vec, RNNs/LSTMs, Attention, BERT, HuggingFace |
 | **Reinforcement Learning** (`RL/`) | 6 | **[NEW]** MDPs, Q-Learning, DQN, Policy Gradient, **PPO**, **RLHF alignment** |
 | **Recommender Systems** (`RS/`) | 4 | **[NEW]** Content/CF, Matrix Factorization, Neural CF/Two-Tower, Production Systems |

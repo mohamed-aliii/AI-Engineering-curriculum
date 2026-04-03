@@ -14,8 +14,8 @@ Mathematical foundations of classical ML: linear algebra, optimization, tree mod
 ### Deep Learning (DL/) — 7 Notebooks  
 Neural network mathematics from scratch: backpropagation, activations, initialization, optimizers, regularization, compute hardware, and **Transformer architecture**.
 
-### Computer Vision (CV/) — 11 Notebooks
-Convolutional networks, object detection, segmentation, Vision Transformers, contrastive learning, generative models (diffusion), video, and edge deployment.
+### Computer Vision (CV/) — 17 Notebooks
+The complete modern CV stack: CNN/RepVGG, RT-DETR, Mask2Former, Vision Transformers & SSMs (Vision Mamba), Contrastive Learning (DINOv2/I-JEPA), 3D Gaussian Splatting, Diffusion Transformers (DiT), Multimodal VLA Models, and Tracking/Pose/OCR modules.
 
 ### Natural Language Processing (NLP/) — 6 Notebooks
 Text preprocessing, tokenization (BPE), word embeddings (Word2Vec), RNNs/LSTMs, attention mechanism, pre-training (BERT/GPT), and HuggingFace pipelines.
