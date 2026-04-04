@@ -58,6 +58,8 @@ Every notebook in this curriculum features a unique **Junior to Senior: Concept 
 *   `15_06_transformer_architecture.ipynb`
 *   `15_07_graph_neural_networks.ipynb`
 *   `15_08_mixture_of_experts.ipynb`
+*   `15_09_model_serialization_and_registry.ipynb` - ONNX & Model Registries
+*   `15_10_experiment_tracking.ipynb` - MLflow & W&B
 
 ---
 
@@ -69,6 +71,7 @@ Every notebook in this curriculum features a unique **Junior to Senior: Concept 
 *   `16_04_sequence_to_sequence_and_attention.ipynb`
 *   `16_05_pretraining_objectives_and_bert.ipynb`
 *   `16_06_huggingface_pipelines_and_transfer_learning.ipynb`
+*   `16_07_model_development.ipynb` - Training Setup & Evaluation
 
 **Module 5: Generative AI & LLM Engineering**
 *   `17_01_alignment_dpo_data_prep.ipynb` - DPO & Alignment Data
@@ -112,7 +115,7 @@ Every notebook in this curriculum features a unique **Junior to Senior: Concept 
 
 **Module 10: System Design & Career**
 *   `43_ml_system_design.ipynb` - Architecting Real-world AI
-*   `44_interview_prep.ipynb` - 60+ Technical Interview Questions
+*   `44_interview_prep.ipynb` - 100 Technical Interview Questions
 
 ---
 
