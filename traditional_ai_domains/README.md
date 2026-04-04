@@ -11,8 +11,8 @@ Complete the **main curriculum** (NB01-34) first for production skills, then use
 ### Machine Learning (ML/) — 9 Notebooks
 Mathematical foundations of classical ML: linear algebra, optimization, tree models, kernels, unsupervised learning, evaluation, and system design.
 
-### Deep Learning (DL/) — 7 Notebooks  
-Neural network mathematics from scratch: backpropagation, activations, initialization, optimizers, regularization, compute hardware, and **Transformer architecture**.
+### Deep Learning (DL/) — 6 Notebooks  
+Neural network mathematics from scratch: backpropagation, activations, initialization, optimizers, regularization, and **Transformer architecture**.
 
 ### Computer Vision (CV/) — 17 Notebooks
 The complete modern CV stack: CNN/RepVGG, RT-DETR, Mask2Former, Vision Transformers & SSMs (Vision Mamba), Contrastive Learning (DINOv2/I-JEPA), 3D Gaussian Splatting, Diffusion Transformers (DiT), Multimodal VLA Models, and Tracking/Pose/OCR modules.
