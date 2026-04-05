@@ -1,6 +1,6 @@
 # 🚀 AI Engineering Masterclass (2026 Edition)
 
-Welcome to the definitive **AI Engineering Curriculum** — now expanded to **44 core notebooks** and 4 specialized tracks.
+Welcome to the definitive **AI Engineering Curriculum** — now expanded to **45 core notebooks** and 4 specialized tracks.
 
 This repository follows a **"T-Shaped AI Engineer"** architecture: mastering the broad foundations of Data Engineering, ML, DL, and NLP first, before choosing a specialization track for deep expertise.
 
@@ -58,8 +58,7 @@ Every notebook in this curriculum features a unique **Junior to Senior: Concept 
 *   `15_06_transformer_architecture.ipynb`
 *   `15_07_graph_neural_networks.ipynb`
 *   `15_08_mixture_of_experts.ipynb`
-*   `15_09_model_serialization_and_registry.ipynb` - ONNX & Model Registries
-*   `15_10_experiment_tracking.ipynb` - MLflow & W&B
+*   `15_09_distributed_training.ipynb`
 
 ---
 
@@ -89,33 +88,37 @@ Every notebook in this curriculum features a unique **Junior to Senior: Concept 
 ---
 
 ### 🚀 Phase IV: Production & MLOps
-**Module 6: Backend Serving & APIs**
-*   `27_http_apis_fundamentals.ipynb`
-*   `28_async_serving_streaming.ipynb` - FastAPI & SSE
-*   `29_task_queues_async_jobs.ipynb` - Celery & Redis
-*   `30_inference_optimization_gpu.ipynb` - vLLM & PagedAttention
-*   `31_on_device_edge_llms.ipynb` - llama.cpp & WebGPU
+**Module 6: Model Lifecycle & MLOps Bridge**
+*   `27_01_model_serialization_and_registry.ipynb` - ONNX & Model Registries
+*   `27_02_experiment_tracking.ipynb` - MLflow & W&B
 
-**Module 7: MLOps & CICD**
-*   `32_cicd_automation.ipynb` - Kubeflow & GitHub Actions
-*   `33_testing_ai_applications.ipynb` - LLM Mocking & Snapshot Testing
-*   `34_model_deployment.ipynb` - BentoML & Kubernetes HPA
+**Module 7: Backend Serving & APIs**
+*   `28_http_apis_fundamentals.ipynb`
+*   `29_async_serving_streaming.ipynb` - FastAPI & SSE
+*   `30_task_queues_async_jobs.ipynb` - Celery & Redis
+*   `31_inference_optimization_gpu.ipynb` - vLLM & PagedAttention
+*   `32_on_device_edge_llms.ipynb` - llama.cpp & WebGPU
 
-**Module 8: Observability & Hardening**
-*   `35_system_observability_apm.ipynb` - Prometheus & Grafana
-*   `36_monitoring_feedback.ipynb` - EvidentlyAI & Drift
-*   `37_llm_observability_cost.ipynb` - Langfuse & Token Tracking
-*   `38_llm_evaluation.ipynb` - DeepEval & LLM-as-a-Judge
-*   `39_ai_gateways_resilience.ipynb` - Rate Limiting & Fallbacks
+**Module 8: MLOps & CICD**
+*   `33_cicd_automation.ipynb` - Kubeflow & GitHub Actions
+*   `34_testing_ai_applications.ipynb` - LLM Mocking & Snapshot Testing
+*   `35_model_deployment.ipynb` - BentoML & Kubernetes HPA
 
-**Module 9: Governance & Security**
-*   `40_api_security_authentication.ipynb` - JWTs & RBAC
-*   `41_ai_safety_guardrails.ipynb` - NeMo Guardrails
-*   `42_governance_security.ipynb` - SHAP & Bias Auditing
+**Module 9: Observability & Hardening**
+*   `36_system_observability_apm.ipynb` - Prometheus & Grafana
+*   `37_monitoring_feedback.ipynb` - EvidentlyAI & Drift
+*   `38_llm_observability_cost.ipynb` - Langfuse & Token Tracking
+*   `39_llm_evaluation.ipynb` - DeepEval & LLM-as-a-Judge
+*   `40_ai_gateways_resilience.ipynb` - Rate Limiting & Fallbacks
 
-**Module 10: System Design & Career**
-*   `43_ml_system_design.ipynb` - Architecting Real-world AI
-*   `44_interview_prep.ipynb` - 100 Technical Interview Questions
+**Module 10: Governance & Security**
+*   `41_api_security_authentication.ipynb` - JWTs & RBAC
+*   `42_ai_safety_guardrails.ipynb` - NeMo Guardrails
+*   `43_governance_security.ipynb` - SHAP & Bias Auditing
+
+**Module 11: System Design & Career**
+*   `44_ml_system_design.ipynb` - Architecting Real-world AI
+*   `45_interview_prep.ipynb` - 100 Technical Interview Questions
 
 ---
 
@@ -153,10 +156,10 @@ Choose your track for deep industry-standard performance.
 
 | Goal | Path | Time |
 | :--- | :--- | :---: |
-| **Full AI Architect** | Core Main Track (01-44) + 1 Specialization | 12-16 weeks |
-| **Generative AI Expert** | 01-05 → 14 → 16_01-06 → 17-26 → 30-31 | 6-8 weeks |
-| **MLOps & Infrastructure** | 01-12 → 32-39 → 43 | 6-8 weeks |
-| **Career Jumpstart** | 13-15 → 27-28 → 43-44 | 4 weeks |
+| **Full AI Architect** | Core Main Track (01-45) + 1 Specialization | 12-16 weeks |
+| **Generative AI Expert** | 01-05 → 14 → 16_01-06 → 17-26 → 31-32 | 6-8 weeks |
+| **MLOps & Infrastructure** | 01-12 → 33-40 → 44 | 6-8 weeks |
+| **Career Jumpstart** | 13-15 → 28-29 → 44-45 | 4 weeks |
 
 ---
 
