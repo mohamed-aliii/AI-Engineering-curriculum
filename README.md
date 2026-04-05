@@ -20,103 +20,105 @@ Every notebook in this curriculum features a unique **Junior to Senior: Concept 
 
 ## 📚 Curriculum Structure (The Main Track)
 
-### 🧱 Phase I: Data & Systems Foundations
-**Module 1: Infrastructure & Orchestration**
+### 🧱 Phase 1: Software & Mathematical Foundations
+*Building the bedrock. A student must first understand code structure and mathematical primitives before training any AI model.*
 *   `01_python_ai_primer.ipynb` - Decorators, Async/Await, Type Hints
-*   `02_infrastructure_orchestration.ipynb` - Docker & Kubernetes
-*   `03_cloud_platforms_ai_infrastructure.ipynb` - Cloud Economics (AWS/GCP/Azure)
-*   `04_eda_data_preprocessing.ipynb` - Data Cleaning Pipelines & Panda Mastery
-*   `05_sql_databases_for_ai.ipynb` - PostgreSQL & Advanced SQL
-*   `06_data_lakehouse.ipynb` - Apache Iceberg & Delta Lake
-*   `07_data_management.ipynb` - versioning with `lakeFS`
-*   `08_spark_declarative_pipelines.ipynb` - Distributed Processing with Spark
-*   `09_data_orchestration_pipelines.ipynb` - Airflow & Dagster TaskFlow
-*   `10_realtime_streaming.ipynb` - Kafka & Flink
-*   `11_feature_engineering.ipynb` - Feast Feature Stores
-*   `12_ray_distributed_compute.ipynb` - Ray Tasks, Actors, and Data
+*   `02_ml_math_and_data_foundations.ipynb`
 
 ---
 
-### 🧠 Phase II: Model Foundations
-**Module 2: ML Engineering**
-*   `13_01_ml_math_and_data_foundations.ipynb`
-*   `13_02_linear_models_and_optimization.ipynb`
-*   `13_03_distance_and_kernel_methods.ipynb`
-*   `13_04_tree_based_models_and_ensembles.ipynb`
-*   `13_05_unsupervised_and_manifold_learning.ipynb`
-*   `13_06_ml_bayesian_machine_learning.ipynb`
-*   `13_07_ml_model_evaluation_and_diagnostics.ipynb`
-*   `13_08_causal_inference_and_uplift.ipynb`
-
-**Module 3: Deep Learning Engineering**
-*   `14_pytorch_fundamentals.ipynb` - The Gateway to DL
-*   `15_01_neural_network_mathematics.ipynb`
-*   `15_02_activation_functions_and_gradients.ipynb`
-*   `15_03_weight_initialization_theory.ipynb`
-*   `15_04_advanced_optimizers_and_loss_landscapes.ipynb`
-*   `15_05_regularization_and_normalization.ipynb`
-*   `15_06_transformer_architecture.ipynb`
-*   `15_07_graph_neural_networks.ipynb`
-*   `15_08_mixture_of_experts.ipynb`
-*   `15_09_distributed_training.ipynb`
+### 📉 Phase 2: Classical Machine Learning
+*Walking before running. Learning core learning paradigms sequentially builds the intuition needed to understand neural landscapes.*
+*   `03_01_linear_models_and_optimization.ipynb`
+*   `03_02_distance_and_kernel_methods.ipynb`
+*   `03_03_tree_based_models_and_ensembles.ipynb`
+*   `03_04_unsupervised_and_manifold_learning.ipynb`
+*   `03_05_ml_bayesian_machine_learning.ipynb`
+*   `03_06_ml_model_evaluation_and_diagnostics.ipynb`
+*   `03_07_causal_inference_and_uplift.ipynb`
 
 ---
 
-### 🤖 Phase III: Generative AI & Language
-**Module 4: Language & Sequence Foundations**
-*   `16_01_text_preprocessing_tokenization.ipynb`
-*   `16_02_word_embeddings_and_word2vec.ipynb`
-*   `16_03_recurrent_networks_and_lstms.ipynb`
-*   `16_04_sequence_to_sequence_and_attention.ipynb`
-*   `16_05_pretraining_objectives_and_bert.ipynb`
-*   `16_06_huggingface_pipelines_and_transfer_learning.ipynb`
-*   `16_07_model_development.ipynb` - Training Setup & Evaluation
-
-**Module 5: Generative AI & LLM Engineering**
-*   `17_01_alignment_dpo_data_prep.ipynb` - DPO & Alignment Data
-*   `17_02_rlhf_alignment.ipynb` - PPO & Reward Models
-*   `18_prompt_engineering.ipynb` - Advanced Reasoning & CoT
-*   `19_structured_output_function_calling.ipynb` - Pydantic & Instructor
-*   `20_llmops_context_engineering.ipynb` - LiteLLM & Context Windows
-*   `21_vector_databases_embeddings.ipynb` - ChromaDB & HNSW Indexing
-*   `22_rag_pipeline.ipynb` - Advanced RAG & Hybrid Search
-*   `23_multimodal_ai.ipynb` - Vision APIs & CLIP
-*   `24_agentic_orchestration.ipynb` - LangGraph State Machines
-*   `25_a2a_multi_agent_protocols.ipynb` - CrewAI & Protocols
-*   `26_model_context_protocol.ipynb` - MCP (Model Context Protocol)
+### 🧠 Phase 3: Deep Learning Foundations
+*The core of modern AI. Understanding PyTorch, gradients, and optimization forms the backbone for building advanced models.*
+*   `04_pytorch_fundamentals.ipynb` - The Gateway to DL
+*   `05_01_neural_network_mathematics.ipynb`
+*   `05_02_activation_functions_and_gradients.ipynb`
+*   `05_03_weight_initialization_theory.ipynb`
+*   `05_04_advanced_optimizers_and_loss_landscapes.ipynb`
+*   `05_05_regularization_and_normalization.ipynb`
+*   `06_graph_neural_networks.ipynb`
 
 ---
 
-### 🚀 Phase IV: Production & MLOps
-**Module 6: Model Lifecycle & MLOps Bridge**
-*   `27_01_model_serialization_and_registry.ipynb` - ONNX & Model Registries
-*   `27_02_experiment_tracking.ipynb` - MLflow & W&B
+### ⚙️ Phase 4: Data Engineering & Infrastructure [The Scale]
+*With modeling intuition built, we introduce the massive data engines and orchestration systems that keep models fed.*
+*   `07_eda_data_preprocessing.ipynb` - Data Cleaning Pipelines & Panda Mastery
+*   `08_sql_databases_for_ai.ipynb` - PostgreSQL & Advanced SQL
+*   `09_data_lakehouse.ipynb` - Apache Iceberg & Delta Lake
+*   `10_data_management.ipynb` - versioning with `lakeFS`
+*   `11_spark_declarative_pipelines.ipynb` - Distributed Processing with Spark
+*   `12_feature_engineering.ipynb` - Feast Feature Stores
+*   `13_infrastructure_orchestration.ipynb` - Docker & Kubernetes
+*   `14_cloud_platforms_ai_infrastructure.ipynb` - Cloud Economics
+*   `15_data_orchestration_pipelines.ipynb` - Airflow & Dagster TaskFlow
+*   `16_realtime_streaming.ipynb` - Kafka & Flink
+*   `17_ray_distributed_compute.ipynb` - Ray Tasks, Actors, and Data
+*   `18_distributed_training.ipynb`
 
-**Module 7: Backend Serving & APIs**
-*   `28_http_apis_fundamentals.ipynb`
-*   `29_async_serving_streaming.ipynb` - FastAPI & SSE
-*   `30_task_queues_async_jobs.ipynb` - Celery & Redis
-*   `31_inference_optimization_gpu.ipynb` - vLLM & PagedAttention
-*   `32_on_device_edge_llms.ipynb` - llama.cpp & WebGPU
+---
 
-**Module 8: MLOps & CICD**
-*   `33_cicd_automation.ipynb` - Kubeflow & GitHub Actions
-*   `34_testing_ai_applications.ipynb` - LLM Mocking & Snapshot Testing
-*   `35_model_deployment.ipynb` - BentoML & Kubernetes HPA
+### 🤖 Phase 5: Modern NLP & Generative AI [The State-of-the-Art]
+*Moving from classical DL to large-scale generative modeling, spanning sequences, transformers, and agentic networks.*
+*   `19_01_text_preprocessing_tokenization.ipynb`
+*   `19_02_word_embeddings_and_word2vec.ipynb`
+*   `19_03_recurrent_networks_and_lstms.ipynb`
+*   `19_04_sequence_to_sequence_and_attention.ipynb`
+*   `20_transformer_architecture.ipynb`
+*   `21_pretraining_objectives_and_bert.ipynb`
+*   `22_mixture_of_experts.ipynb`
+*   `23_01_huggingface_pipelines_and_transfer_learning.ipynb`
+*   `23_02_model_development.ipynb` - Training Setup & Evaluation
+*   `23_03_sft_implementation.ipynb`
+*   `24_01_alignment_dpo_data_prep.ipynb` - DPO & Alignment Data
+*   `24_02_rlhf_alignment.ipynb` - PPO & Reward Models
+*   `25_prompt_engineering.ipynb` - Advanced Reasoning & CoT
+*   `26_structured_output_function_calling.ipynb` - Pydantic & Instructor
+*   `27_llmops_context_engineering.ipynb` - LiteLLM & Context Windows
+*   `28_vector_databases_embeddings.ipynb` - ChromaDB & HNSW Indexing
+*   `29_rag_pipeline.ipynb` - Advanced RAG & Hybrid Search
+*   `30_multimodal_ai.ipynb` - Vision APIs & CLIP
+*   `31_01_agentic_orchestration.ipynb` - LangGraph State Machines
+*   `31_02_a2a_multi_agent_protocols.ipynb` - CrewAI & Protocols
+*   `32_model_context_protocol.ipynb` - MCP (Model Context Protocol)
 
-**Module 9: Observability & Hardening**
-*   `36_system_observability_apm.ipynb` - Prometheus & Grafana
-*   `37_monitoring_feedback.ipynb` - EvidentlyAI & Drift
-*   `38_llm_observability_cost.ipynb` - Langfuse & Token Tracking
-*   `39_llm_evaluation.ipynb` - DeepEval & LLM-as-a-Judge
-*   `40_ai_gateways_resilience.ipynb` - Rate Limiting & Fallbacks
+---
 
-**Module 10: Governance & Security**
-*   `41_api_security_authentication.ipynb` - JWTs & RBAC
-*   `42_ai_safety_guardrails.ipynb` - NeMo Guardrails
-*   `43_governance_security.ipynb` - SHAP & Bias Auditing
+### 🚀 Phase 6: MLOps, Serving & Deployment [The Production]
+*Bringing state-of-the-art models out of isolation by heavily testing, packaging, and deploying them to highly concurrent edge or cloud APIs.*
+*   `33_testing_ai_applications.ipynb` - LLM Mocking & Snapshot Testing
+*   `34_cicd_automation.ipynb` - Kubeflow & GitHub Actions
+*   `35_01_model_serialization_and_registry.ipynb` - ONNX & Model Registries
+*   `35_02_experiment_tracking.ipynb` - MLflow & W&B
+*   `36_http_apis_fundamentals.ipynb`
+*   `37_async_serving_streaming.ipynb` - FastAPI & SSE
+*   `38_task_queues_async_jobs.ipynb` - Celery & Redis
+*   `39_inference_optimization_gpu.ipynb` - vLLM & PagedAttention
+*   `40_on_device_edge_llms.ipynb` - llama.cpp & WebGPU
+*   `41_model_deployment.ipynb` - BentoML & Kubernetes HPA
 
-**Module 11: System Design & Career**
+---
+
+### 👁️ Phase 7: Observability, Governance & System Design [The Senior Lens]
+*The true mark of a senior engineer: managing long-term lifecycle performance, securing end points, framing large system blueprints.*
+*   `42_01_system_observability_apm.ipynb` - Prometheus & Grafana
+*   `42_02_monitoring_feedback.ipynb` - EvidentlyAI & Drift
+*   `42_03_llm_observability_cost.ipynb` - Langfuse & Token Tracking
+*   `42_04_llm_evaluation.ipynb` - DeepEval & LLM-as-a-Judge
+*   `42_05_ai_gateways_resilience.ipynb` - Rate Limiting & Fallbacks
+*   `43_01_api_security_authentication.ipynb` - JWTs & RBAC
+*   `43_02_ai_safety_guardrails.ipynb` - NeMo Guardrails
+*   `43_03_governance_security.ipynb` - SHAP & Bias Auditing
 *   `44_ml_system_design.ipynb` - Architecting Real-world AI
 *   `45_interview_prep.ipynb` - 100 Technical Interview Questions
 
